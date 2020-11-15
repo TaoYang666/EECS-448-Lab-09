@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercise 3: Web Store</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body background="img/bc.jpg" style="background-repeat:no-repeat ;background-size:100% 100%;background-attachment: fixed;">
+        <center>
+            <h1>No shopping, No life!</h1>
+            <h3>The best shopping choice!</h3>
+        </center>
+        <form name="submitform" action="customerBackend.php" onsubmit=" return check()" method="post" >
+            
+                <h5>Enther the username <input type="email" name="name"></h5>
+                <h5>Enther the password <input type="password" name="password"></h5>
+            
+            <div class="main">
+                <div class="Coke">
+                    <div class="c1">
+                        <img src="img/coke.png">
+                        <h3>Coke(500ml)<br></h3>
+                        <h4>Price:$2.00<br></h4>
+                        <h4>Quantities: <input type="text" name="Cokenum"size="1"></h4>
+                        <h6>(Please choose 0 when you don't want to buy)</h6>
+                    </div>
+                </div>
+    
+                <div class="Poker">
+                    <div class="p2">
+                        <img src="img/poker.png">
+                        <h3>Bicycle Poker<br></h3>
+                        <h4>Price:$3.99<br></h4>
+                        <h4>Quantities: <input type="text" name="Pokernum"size="1"></h4>
+                        <h6>(Please choose 0 when you don't want to buy)</h6>
+                    </div>
+                </div>
+    
+                <div class="mp3">
+                    <div class="m3">
+                        <img src="img/MP3.png">
+                        <h3>Sony Walkman<br></h3>
+                        <h4>Price:$78.00<br></h4>
+                        <h4>Quantities: <input type="text" name="mp3num"size="1"></h4>
+                        <h6>(Please choose 0 when you don't want to buy)</h6>
+                    </div>
+                </div>
+            </div>
+            <center>
+                <h3>Please choose the shipping option:<br></h3>
+                <li><input type="radio" name="op" value="0">Free 7 day</li>
+                <li><input type="radio" name="op" value="50">$50.00 over night</li>
+                <li><input type="radio" name="op" value="5">$5.00 three day</li>
+                <div class="btn">
+                    <div class="re">
+                        <h3><input type="reset" value="Reset"></h3>
+                    </div>
+                    <div class="sub">
+                        <h3><input type="submit" value="Submit"></h3>
+                    </div>
+               
+                </div>
+            </center>
+            
+    </form>
+    </body>
+    <script src="formChecker.js"></script>
+</html>

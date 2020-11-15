@@ -1,0 +1,46 @@
+.main
+{
+    display:flex;
+    align-items:flex-end;
+}
+
+.Coke div
+{
+    width: 400px;
+    height: 350px;
+    margin: 120px;
+}
+
+
+.c1
+{
+    text-align:center;
+}
+
+
+.Poker div
+{
+    width: 400px;
+    height: 350px;
+    margin: 120px;
+    
+}
+
+.p2
+{
+    text-align:center;
+}
+
+
+.mp3 div
+{
+    width: 400px;
+    height: 350px;
+    margin: 120px;
+}
+
+.m3
+{
+    text-align:center;
+}
+
